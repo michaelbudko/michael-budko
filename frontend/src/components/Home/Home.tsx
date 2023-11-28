@@ -1,8 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FortiCoinLogo from '../../assets/logos/FortiCoin.png';
 import { Button } from 'react-bootstrap';
+import FortiCoinLogo from '../../assets/logos/FortiCoin.png';
 import SleepTrackerLogo from '../../assets/logos/SleepTracker.png';
+import SteganographyLogo from '../../assets/logos/steganography.png';
 
 
 const Header = () => {
@@ -35,6 +36,7 @@ const HeroSection = () => {
         <div className="d-flex">
             <ProjectCard imgSrc={FortiCoinLogo} title="FortiCoin" description="Buy, send, receive crypto" link="https://forticoin.com" />
             <ProjectCard imgSrc={SleepTrackerLogo} title="SleepTracker" description="View real-time sleep metrics" link="https://sleep.michaelbudko.com" />
+            <ProjectCard imgSrc={SteganographyLogo} title="Steganography" description="Store secret text in images" link="https://steganography.michaelbudko.com" />
             {/* Add more projects as needed */}
         </div>
     </div>
